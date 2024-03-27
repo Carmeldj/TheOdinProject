@@ -1,3 +1,9 @@
 #title {
   font-size: 40px;
+  background-color: lemonchiffon;
+}
+
+.small-title {
+  font-size: 30px;
+  background: lightblue;
 }
