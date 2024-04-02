@@ -1,9 +1,17 @@
-let a = 10;
+let add7 = (a) => a + 7;
 
-console.log(23 + 97);
+console.log(add7(3));
 
-console.log((4 + 6 + 9) / 77);
+let multiply = (a, b) => a * b;
 
-let c = a * 5;
+console.log(multiply(2, 5));
 
-let sign = prompt("What's your sign?");
+function capitalize(str) {
+  str = str[0].toUpperCase() + str.slice(1);
+  console.log(str);
+}
+//capitalize("aBcD");
+//
+const lastLetter = (str) => str[str.length - 1];
+
+console.log(lastLetter("abcd"));
